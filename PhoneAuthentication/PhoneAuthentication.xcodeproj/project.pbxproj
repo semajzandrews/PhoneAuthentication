@@ -11,6 +11,8 @@
 		FE822BF927BECC7400DEAC9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE822BF827BECC7400DEAC9B /* ContentView.swift */; };
 		FE822BFB27BECC7600DEAC9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE822BFA27BECC7600DEAC9B /* Assets.xcassets */; };
 		FE822BFE27BECC7600DEAC9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE822BFD27BECC7600DEAC9B /* Preview Assets.xcassets */; };
+		FE822C0927BECDD000DEAC9B /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE822C0827BECDD000DEAC9B /* Login.swift */; };
+		FE822C0B27BECFAD00DEAC9B /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE822C0A27BECFAD00DEAC9B /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		FE822BF827BECC7400DEAC9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FE822BFA27BECC7600DEAC9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE822BFD27BECC7600DEAC9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FE822C0827BECDD000DEAC9B /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		FE822C0A27BECFAD00DEAC9B /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		FE822BF527BECC7400DEAC9B /* PhoneAuthentication */ = {
 			isa = PBXGroup;
 			children = (
+				FE822C0427BECCEB00DEAC9B /* View */,
 				FE822BF627BECC7400DEAC9B /* PhoneAuthenticationApp.swift */,
 				FE822BF827BECC7400DEAC9B /* ContentView.swift */,
 				FE822BFA27BECC7600DEAC9B /* Assets.xcassets */,
@@ -65,6 +70,15 @@
 				FE822BFD27BECC7600DEAC9B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FE822C0427BECCEB00DEAC9B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE822C0827BECDD000DEAC9B /* Login.swift */,
+				FE822C0A27BECFAD00DEAC9B /* CustomTextField.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE822C0B27BECFAD00DEAC9B /* CustomTextField.swift in Sources */,
+				FE822C0927BECDD000DEAC9B /* Login.swift in Sources */,
 				FE822BF927BECC7400DEAC9B /* ContentView.swift in Sources */,
 				FE822BF727BECC7400DEAC9B /* PhoneAuthenticationApp.swift in Sources */,
 			);
